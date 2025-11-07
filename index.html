@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scholarship Application Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Scholarship Application Form</h1>
+
+        <form id="form">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Enter your full name" required>
+
+            <label for="email">Email Address</label>
+            <input type="text" id="email" placeholder="Enter your email" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter password" required>
+
+            <label for="cpass">Confirm Password</label>
+            <input type="password" id="cpass" placeholder="Re-enter password" required>
+
+            <label>Qualification</label>
+            <div class="qualification">
+                <label><input type="radio" name="qualification" value="Undergraduate"> Undergraduate</label>
+                <label><input type="radio" name="qualification" value="Post Graduate"> Post Graduate</label>
+            </div>
+
+            <label for="department">Department</label>
+            <select id="department">
+                <option value="">Select Department</option>
+                <option value="Computer Science">Computer Science</option>
+                <option value="Engineering">Engineering</option>
+                <option value="Business">Business</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
