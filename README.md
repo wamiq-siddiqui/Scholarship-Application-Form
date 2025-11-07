@@ -6,17 +6,17 @@ It also validates all inputs before submission, ensuring a smooth and error-free
 
 Features:-
 
-Fully functional form with real-time JavaScript validation
-Clean, responsive, and professional design
-Password and email format validation
-Qualification (radio buttons) and department (dropdown) verification
-Simple and beginner-friendly code structure
+Fully functional form with real-time JavaScript validation.
+Clean, responsive, and professional design.
+Password and email format validation.
+Qualification (radio buttons) and department (dropdown) verification.
+Simple and beginner-friendly code structure.
 
 Technologies Used:-
 
-HTML5 – For page structure and form elements
-CSS3 – For styling and layout
-JavaScript (ES6) – For input validation and interactivity
+HTML5 – For page structure and form elements.
+CSS3 – For styling and layout.
+JavaScript (ES6) – For input validation and interactivity.
 
 How It Works:-
 
@@ -24,11 +24,11 @@ How It Works:-
 
 2. JavaScript checks for:
 
-Empty fields
-Valid email format
-Password length (min 6 characters)
-Matching password confirmation
-Qualification & department selection
+Empty fields,
+Valid email format,
+Password length (min 6 characters),
+Matching password confirmation,
+Qualification & department selection.
 
 3. If any field is missing or invalid → An alert message appears.
 
