@@ -1,35 +1,38 @@
-This project is a Scholarship Application Form created using HTML, CSS, and JavaScript.
-It was built as part of a web development learning assignment to practice form structure, styling, and client-side validation.
+# Scholarship Application Form
 
-The form collects essential user information such as full name, email, password, qualification, and department.
-It also validates all inputs before submission, ensuring a smooth and error-free user experience.
+A responsive and functional **Scholarship Application Form** built using **HTML, CSS, and JavaScript**.  
+Developed as part of a web development learning assignment to practice **form structure**, **styling**, and **client-side validation**.
 
-Features:-
+## Overview
+This project demonstrates how to create a well-structured and user-friendly form with built-in JavaScript validation.  
+It collects key user details such as **Full Name, Email, Password, Qualification**, and **Department**, ensuring that all inputs are validated before submission.
 
-Fully functional form with real-time JavaScript validation.
-Clean, responsive, and professional design.
-Password and email format validation.
-Qualification (radio buttons) and department (dropdown) verification.
-Simple and beginner-friendly code structure.
+## Features
+- Fully functional form with real-time JavaScript validation  
+- Clean, responsive, and professional design  
+- Email and password format verification  
+- Qualification (radio buttons) and Department (dropdown) validation  
+- Beginner-friendly code structure and logic  
 
-Technologies Used:-
+## Technologies Used
+- **HTML5** – For form structure and semantic layout  
+- **CSS3** – For styling, responsiveness, and layout design  
+- **JavaScript (ES6)** – For form validation and interactivity  
 
-HTML5 – For page structure and form elements.
-CSS3 – For styling and layout.
-JavaScript (ES6) – For input validation and interactivity.
+## How It Works
+1. The user fills in all required fields in the form.  
+2. JavaScript performs the following checks:
+   - Empty field detection  
+   - Valid email format  
+   - Password length (minimum 6 characters)  
+   - Matching password confirmation  
+   - Qualification and Department selection  
+3. If any validation fails → An alert message is shown to the user.  
+4. If all fields are valid → A success message appears:  
+   **“Form submitted successfully!”**
 
-How It Works:-
+## Author
+**Muhammad Wamiq Siddiqui**  
+Karachi, Pakistan
 
-1. User fills in all required fields.
-
-2. JavaScript checks for:
-
-Empty fields,
-Valid email format,
-Password length (min 6 characters),
-Matching password confirmation,
-Qualification & department selection.
-
-3. If any field is missing or invalid → An alert message appears.
-
-4. If everything is valid → A success message “Form submitted successfully!” is displayed.
+*If you like this project, give it a star on GitHub!*
